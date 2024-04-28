@@ -2,6 +2,7 @@
   "expo": {
     "name": "ToDO_useState",
     "slug": "ToDO_useState",
+    "scheme": "ToDO_useState",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
